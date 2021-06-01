@@ -36,13 +36,13 @@
         <a href="\iwtProject\Available Resources.html\AvailableResources.php" class="navbar__links" id="AvailableResources-page">Available Resources</a>
       </li>
       <li class="navbar__item">
-        <a href="#Resources" class="navbar__links" id="Resources-page">Resources</a>
+        <a href="\iwtProject\Resources.html\Resources.php" class="navbar__links" id="Resources-page">Resources</a>
       </li>
       <li class="navbar__item">
         <a href="\iwtProject\Daily Shedule.html\DailyShedule.php" class="navbar__links" id="DailyShedule-page">Daily Shedule</a>
       </li>
       <li class="navbar__item">
-        <a href="#" class="navbar__links" id="AboutUs-page">About Us</a>
+        <a href="\iwtProject\AboutUs.html\AboutUs.php" class="navbar__links" id="AboutUs-page">About Us</a>
       </li>
       <li class="navbar__item">
         <a href="\iwtProject\Contact Us.html\ContactUs.php" class="navbar__links" id="ContactUs-page">Contact Us</a>
@@ -100,10 +100,10 @@
     <p style="font-family: 'Courier New', Courier, monospace; font-size: 1rem;">By creating an account you agree to our <a href="#" style="color:dodgerblue; font-family: 'Courier New', Courier, monospace; font-size: 1rem;">Terms & Privacy</a>.</p>
 
     <div style="height: 40px; position: relative; border: none;">
-      <div style="margin: 0; position: absolute; top: 60%; left: 15%; right: 26%; -ms-transform: translateY(-50%); transform: translateY(-50%); width: 15rem;">
-        <button class="navbar__btn button1" style="display: flex; box-shadow: 2px 2px 1px 1px #000; align-items: flex-start; cursor: pointer;" formaction="\iwtProject\index.php">Cacel</button>
+      <div style="margin: 0; position: absolute; top: 60%; left: 30%; right: 26%; -ms-transform: translateY(-50%); transform: translateY(-50%); width: 15rem;">
+        <button formaction="\iwtProject\index.php" class="navbar__btn button1" style="display: flex; box-shadow: 2px 2px 1px 1px #000; align-items: flex-start; cursor: pointer;">Cacel</button>
       </div> 
-      <div style="margin: 0; position: absolute; top: 60%; left: 40%; right: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%); width:15rem;">
+      <div style="margin: 0; position: absolute; top: 60%; left: 55%; right: 0%; -ms-transform: translateY(-50%); transform: translateY(-50%); width:15rem;">
         <button formaction="\iwtProject\Signe Up Page.html\SigneUpPage.php" class="navbar__btn button1" style="display: flex; box-shadow: 2px 2px 1px 1px #000; align-items: flex-start; cursor: pointer; ">Sigh Up</button>
       </div>
     </div>
@@ -245,14 +245,14 @@ window.onclick = function(event) {
 
 
 <!-- Footer Start -->
-<footer class="site_footer" style="font-family: 'Courier New', Courier, monospace; position: absolute; width: 100%;">
+<footer class="site_footer" id="footer" style="font-family: 'Courier New', Courier, monospace; position:absolute; width:100%; height:fit-content;"> <!--1933-->
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-6" style="bottom: 0%;">
         <h6 style="font-family: 'Courier New', Courier, monospace; font-size: 2rem;">About</h6>
         <p class="text-justify" style="font-family: 'Courier New', Courier, monospace; font-size: larger;">Welcome to newly designed website resource booking system. Resource booking system for the management and schedule of your facilities and resources. This web site is a faster, cleaner, and secure more personal website, especially this web site designed to make your booking experience well. 
         Resource booking that provides organizations with complete over the resources they wish to be able to book. Also, the goal is help user to get more direct bookings easily & contribute to growing their business.
-</p>
+        </p>
       </div>
 
       <div class="col-xs-6 col-md-3">

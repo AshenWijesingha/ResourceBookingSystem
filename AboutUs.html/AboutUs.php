@@ -65,7 +65,7 @@
 <br>
 
 <div id="devCont_top" style="height: 53rem">  
-<p style="font-family:'Courier New', Courier, monospace; font-size:2rem; color:white; ">Welcome to newly designed website resource booking system. Resource booking system for the management and schedule of your facilities and resources. This web site is a faster, cleaner, and secure more personal website, especially this web site designed to make your booking experience well.<br><br>
+<p style="font-family:'Courier New', Courier, monospace; font-size:1.5rem; color:white; padding-top:1rem; padding-bottom:1rem;">Welcome to newly designed website resource booking system. Resource booking system for the management and schedule of your facilities and resources. This web site is a faster, cleaner, and secure more personal website, especially this web site designed to make your booking experience well.<br><br>
   
   Resource booking that provides organizations with complete over the resources they wish to be able to book. Also, the goal is help user to get more direct bookings easily & contribute to growing their business.<br><br>
   
@@ -81,14 +81,14 @@
 
 
 <!-- Footer Start -->
-<footer class="site_footer" style="font-family: 'Courier New', Courier, monospace; position: absolute; width: 100%;">
+<footer class="site_footer" id="footer" style="font-family: 'Courier New', Courier, monospace; position:absolute; width:100%; height:fit-content;"> <!--1933-->
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-6" style="bottom: 0%;">
         <h6 style="font-family: 'Courier New', Courier, monospace; font-size: 2rem;">About</h6>
         <p class="text-justify" style="font-family: 'Courier New', Courier, monospace; font-size: larger;">Welcome to newly designed website resource booking system. Resource booking system for the management and schedule of your facilities and resources. This web site is a faster, cleaner, and secure more personal website, especially this web site designed to make your booking experience well. 
         Resource booking that provides organizations with complete over the resources they wish to be able to book. Also, the goal is help user to get more direct bookings easily & contribute to growing their business.
-</p>
+        </p>
       </div>
 
       <div class="col-xs-6 col-md-3">

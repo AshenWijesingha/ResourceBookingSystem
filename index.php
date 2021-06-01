@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Simple website</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mainfile.css">
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
   </head>
@@ -55,7 +55,6 @@
 <!-- End Nav Bar -->
 
 <!-- Body Start -->
-
 <br>
 <hr>
 <br>
@@ -115,14 +114,14 @@
 
 
 <!-- Footer Start -->
-<footer class="site_footer" style="font-family: 'Courier New', Courier, monospace; position: absolute; width: 100%;">
+<footer class="site_footer" id="footer" style="font-family: 'Courier New', Courier, monospace; position:absolute; width:100%; height:fit-content;"> <!--1933-->
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-6" style="bottom: 0%;">
         <h6 style="font-family: 'Courier New', Courier, monospace; font-size: 2rem;">About</h6>
         <p class="text-justify" style="font-family: 'Courier New', Courier, monospace; font-size: larger;">Welcome to newly designed website resource booking system. Resource booking system for the management and schedule of your facilities and resources. This web site is a faster, cleaner, and secure more personal website, especially this web site designed to make your booking experience well. 
         Resource booking that provides organizations with complete over the resources they wish to be able to book. Also, the goal is help user to get more direct bookings easily & contribute to growing their business.
-</p>
+        </p>
       </div>
 
       <div class="col-xs-6 col-md-3">
